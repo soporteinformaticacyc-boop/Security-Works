@@ -14,3 +14,5 @@ Route::get('/areas', function () { return view('areas'); })->name('areas');
 Route::get('/certificacion-os10', function () { return view('certificacion'); })->name('certificacion');
 Route::get('/inscribete', function () { return view('inscribete'); })->name('inscribete');
 Route::get('/contacto', function () { return view('contacto'); })->name('contacto');
+Route::get('/nosotros', function () {return view('nosotros'); // Busca el archivo nosotros.blade.php
+})->name('nosotros');

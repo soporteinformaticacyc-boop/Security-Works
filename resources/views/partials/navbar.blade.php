@@ -26,10 +26,10 @@
                     Cursos
                 </a>
 
-                {{-- Enlace: NUESTRAS ÁREAS --}}
-                <a href="{{ route('areas') }}"
+                {{-- Enlace: NOSOTROS --}}
+                <a href="{{ route('nosotros') }}"
                     class="px-3 py-5 border-b-4 transition duration-300 {{ request()->routeIs('areas') ? 'border-white bg-red-700' : 'border-transparent hover:bg-red-600 hover:border-red-400' }}">
-                    Nuestras áreas
+                    ¿Quienes Somos?
                 </a>
 
                 {{-- Enlace: CERTIFICACIÓN OS10 --}}
