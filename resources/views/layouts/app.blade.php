@@ -25,6 +25,9 @@
     tailwind.config = {
         theme: {
             extend: {
+                fontFamily: {
+                    sans: ['Verdana', 'sans-serif'], 
+                },
                 animation: {
                     'scroll': 'scroll 40s linear infinite', // 40s es la velocidad (más alto = más lento)
                 },

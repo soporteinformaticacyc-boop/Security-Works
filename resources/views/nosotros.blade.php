@@ -105,6 +105,16 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto">
+            <div class="text-center group">
+                <div class="relative w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-gray-100 shadow-xl group-hover:border-red-600 transition duration-300">
+                    <img src="{{ asset('img/maria-del-rosario.jpg') }}" alt="Jefe Comercial" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-500">
+                </div>
+                <h3 class="text-xl font-bold text-gray-900">María del Rosario</h3>
+                <p class="text-red-600 font-medium mb-3">Representante Legal</p>
+                <p class="text-sm text-gray-500 px-4">
+                    Contador Auditor, con amplia trayectoria en la administración de Empresas de Capacitación desde el año 2005. Experta en uso de franquicia tributaria para las capacitaciones y gestión de RRHH. Actualmente se desempeña como Gerente de Administración y Finanzas de Security Work.
+                </p>
+            </div>
             
             <div class="text-center group">
                 <div class="relative w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-gray-100 shadow-xl group-hover:border-red-600 transition duration-300">
@@ -113,7 +123,7 @@
                 <h3 class="text-xl font-bold text-gray-900">Eric Contreras</h3>
                 <p class="text-red-600 font-medium mb-3">Director Ejecutivo</p>
                 <p class="text-sm text-gray-500 px-4">
-                    Ingeniero de profesión graduado desde el año 2008.
+                    Ingeniero de profesión, con trayectoria desde 2008 en capacitación y consultoría empresarial, actualmente se desempeña en SecurityWork, empresa dedicada a la capacitación en seguridad, con especial foco en cursos OS-10, aportando soluciones formativas alineadas a los estándares de la autoridad y a las necesidades reales de las organizaciones.
                 </p>
             </div>
 
@@ -124,21 +134,9 @@
                 <h3 class="text-xl font-bold text-gray-900">Macarena Cea</h3>
                 <p class="text-red-600 font-medium mb-3">Community Manager</p>
                 <p class="text-sm text-gray-500 px-4">
-                    Diseñadora de profesión.
+                    Diseñadora de profesión, dedicada a las comunicaciones de Security Work desde el año 2017 a la fecha. En la actualidad se desempeña en el cargo de Community Manager de nuestra compañía.
                 </p>
             </div>
-
-            <div class="text-center group">
-                <div class="relative w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-gray-100 shadow-xl group-hover:border-red-600 transition duration-300">
-                    <img src="{{ asset('img/maria-del-rosario.jpg') }}" alt="Jefe Comercial" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-500">
-                </div>
-                <h3 class="text-xl font-bold text-gray-900">María del Rosario</h3>
-                <p class="text-red-600 font-medium mb-3">Gerente Comercial y Administración</p>
-                <p class="text-sm text-gray-500 px-4">
-                    Contador auditor y con una gran trayectoria en la administración de empresas desde 2005.
-                </p>
-            </div>
-
         </div>
     </div>
 </section>
