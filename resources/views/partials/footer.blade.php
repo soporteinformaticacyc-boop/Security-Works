@@ -29,11 +29,6 @@
                         </a>
                     </li>
                     <li>
-                        <a href="{{ route('areas') }}" class="hover:text-red-500 hover:pl-2 transition-all duration-300 flex items-center">
-                            <span class="mr-2">›</span> Nuestras Áreas
-                        </a>
-                    </li>
-                    <li>
                         <a href="{{ route('certificacion') }}" class="hover:text-red-500 hover:pl-2 transition-all duration-300 flex items-center">
                             <span class="mr-2">›</span> Certificación OS10
                         </a>
