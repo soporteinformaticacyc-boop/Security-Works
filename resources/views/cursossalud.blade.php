@@ -132,26 +132,23 @@
     </section>
 
     {{-- ===========================
-         DEA
-       =========================== --}}
+    DEA
+    =========================== --}}
     <section class="py-5 bg-white">
         <div class="container">
 
             <div class="curso-card">
                 {{-- Imagen izquierda --}}
                 <div class="curso-card-media">
-                    <img
-                        src="{{ asset('img/cursos/curso_os10.jpg') }}"
-                        alt="Formación de Guardias OS10"
-                    >
-                    <span class="curso-tag">Uso y Manejo de DEA</span>
+                    <img src="{{ asset('img/especializacion/salud/dea.jpg') }}" alt="Formación de Guardias OS10">
+                    <span class="curso-tag">Certificación</span>
                 </div>
 
                 {{-- Texto derecha --}}
                 <div class="curso-card-body">
                     <div>
                         <div class="curso-meta mb-1">
-                            Primeros Respondedores
+                            Ley de zonas cardioprotegidas
                         </div>
 
                         <h2 class="curso-title mb-2">
@@ -159,22 +156,21 @@
                         </h2>
 
                         <p class="curso-resumen mb-3">
-                            El objetivo del curso es entregar al alumno conocimientos y herramientas sobre
-                            técnicas de seguridad privada, fundamentales para responder con certeza y
-                            oportunidad ante eventos relacionados con la seguridad que puedan afectar a los
-                            copropietarios de alguna comunidad o institución, y a sus activos.
+                            Capacitación técnica para el uso correcto del Desfibrilador Externo Automático (DEA) y la
+                            ejecución de maniobras de reanimación cardiopulmonar. Este curso cumple con la normativa vigente
+                            sobre zonas cardioprotegidas, preparando al personal para actuar con rapidez y eficacia ante
+                            paros cardiorrespiratorios en espacios públicos o privados.
                         </p>
 
                         <p class="curso-resumen mb-3">
-                            Dirigido a personas que quieran trabajar como guardias de seguridad, nochero,
-                            rondines u otros de similar carácter por los efectos del D.S. 93, en
-                            condominios habitacionales, comerciales, empresas y eventos.
+                            Personal de seguridad, encargados de edificios, brigadistas de emergencia y público general
+                            designado para la respuesta ante emergencias cardíacas.
                         </p>
 
                         <div class="curso-badges mb-1">
-                            <span>Duración referencial: 90 hrs</span>
+                            <span>Duración referencial: -- hrs</span>
                             <span>Modalidad: Presencial</span>
-                            <span>Certificación OS10</span>
+                            <span>Certificación Sence</span>
                         </div>
                     </div>
 
@@ -183,9 +179,8 @@
                             ¿Dudas sobre requisitos, horarios o valores? Te orientamos sin compromiso.
                         </small>
 
-                        <button type="button"
-                                class="btn btn-danger fw-semibold btn-curso-info"
-                                data-curso="Formación de Guardias OS10">
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="Uso y Manejo de DEA/RCP">
                             Más información
                         </button>
                     </div>
@@ -196,56 +191,53 @@
     </section>
 
     {{-- ===========================
-         Reentrenamiento de Guardias OS10
-       =========================== --}}
+    PLasma rico en plaquetas
+    =========================== --}}
     <section class="py-5 bg-white">
         <div class="container">
 
             <div class="curso-card">
                 <div class="curso-card-media">
-                    <img
-                        src="{{ asset('img/cursos/Reentrenamiento_de_Guardias_OS10.jpg') }}"
-                        alt="Reentrenamiento de Guardias OS10"
-                    >
-                    <span class="curso-tag">Actualización OS10</span>
+                    <img src="{{ asset('img/especializacion/salud/plaquetas.jpg') }}" alt="DEA">
+                    <span class="curso-tag">Especialización</span>
                 </div>
 
                 <div class="curso-card-body">
                     <div>
                         <div class="curso-meta mb-1">
-                            Seguridad privada · Nivel intermedio
+                            Estetica clinica y bioseguridad
                         </div>
 
                         <h2 class="curso-title mb-2">
-                            Reentrenamiento de Guardias OS10
+                            Plasma rico en Plaquetas
                         </h2>
 
                         <p class="curso-resumen mb-3">
-                            Curso orientado a reforzar conocimientos y habilidades de los guardias
-                            acreditados OS10, actualizando contenidos de acuerdo a la normativa y
-                            buenas prácticas vigentes.
+                            Curso avanzado enfocado en la obtención, preparación y aplicación de plasma autólogo con fines
+                            estéticos y regenerativos. Se pone énfasis en los protocolos de asepsia, bioseguridad y
+                            normativa sanitaria para garantizar procedimientos seguros y efectivos en la regeneración
+                            tisular.
                         </p>
 
                         <p class="curso-resumen mb-3">
-                            Ideal para guardias que deben renovar credencial y empresas que desean
-                            mantener al día la capacitación de su personal.
+                            Profesionales del área de la salud (enfermeros, odontólogos, médicos) y estética que deseen
+                            ampliar sus competencias en tratamientos bioregenerativos.
                         </p>
 
                         <div class="curso-badges mb-1">
-                            <span>Duración referencial: 40 hrs</span>
-                            <span>Renovación OS10</span>
-                            <span>Orientado a empresas</span>
+                            <span>Duración: -- Horas</span>
+                            <span>Modalidad: Presencial</span>
+                            <span>Certificación Sence</span>
                         </div>
                     </div>
 
                     <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
                         <small class="text-muted">
-                            Programa ideal para mantener tus credenciales vigentes.
+                            Programa ideal para aplicaciones en tratamientos médicos.
                         </small>
 
-                        <button type="button"
-                                class="btn btn-danger fw-semibold btn-curso-info"
-                                data-curso="Reentrenamiento de Guardias OS10">
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="Plasma rico en Plaquetas">
                             Más información
                         </button>
                     </div>
@@ -256,55 +248,53 @@
     </section>
 
     {{-- ===========================
-         Vigilante Privado
-       =========================== --}}
+    Primeros auxilios y RCP
+    =========================== --}}
     <section class="py-5 bg-white">
         <div class="container">
 
             <div class="curso-card">
                 <div class="curso-card-media">
-                    <img
-                        src="{{ asset('img/cursos/Vigilante_Privado.jpg') }}"
-                        alt="Vigilante Privado"
-                    >
-                    <span class="curso-tag">Vigilancia Privada</span>
+                    <img src="{{ asset('img/especializacion/salud/rcp.jpg') }}" alt="Vigilante Privado">
+                    <span class="curso-tag">Taller</span>
                 </div>
 
                 <div class="curso-card-body">
                     <div>
                         <div class="curso-meta mb-1">
-                            Operaciones de seguridad · Nivel avanzado
+                            Respuesta inmediata de emergencia
                         </div>
 
                         <h2 class="curso-title mb-2">
-                            Vigilante Privado
+                            Primeros Auxilios y RCP Básico
                         </h2>
 
                         <p class="curso-resumen mb-3">
-                            Programa de formación para personal que desempeña funciones de
-                            vigilancia privada en bancos, instituciones financieras y otras
-                            instalaciones de alto riesgo.
+                            Entrenamiento integral para brindar la primera atención ante accidentes o enfermedades súbitas
+                            antes de la llegada de equipos médicos. Aprenderás a evaluar la escena, estabilizar al paciente
+                            y realizar maniobras de Reanimación Cardiopulmonar (RCP), una competencia vital para cualquier
+                            agente de seguridad o monitor.
                         </p>
 
                         <p class="curso-resumen mb-3">
-                            Incluye manejo de protocolos de seguridad, análisis de riesgo
-                            y trabajo coordinado con fuerzas de orden.
+                            Guardias de seguridad, prevencionistas, docentes y cualquier persona interesada en adquirir
+                            conocimientos vitales para la asistencia de accidentados.
                         </p>
 
                         <div class="curso-badges mb-1">
-                            <span>Protección de activos críticos</span>
-                            <span>Protocolos y análisis de riesgo</span>
+                            <span>Duración: -- Horas</span>
+                            <span>Modalidad: Presencial</span>
+                            <span>Certificación Sence</span>
                         </div>
                     </div>
 
                     <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
                         <small class="text-muted">
-                            Diseñado para perfiles que requieren alto estándar de seguridad.
+                            Diseñado para perfiles que necesitan tecnicas de primeros auxilios.
                         </small>
 
-                        <button type="button"
-                                class="btn btn-danger fw-semibold btn-curso-info"
-                                data-curso="Vigilante Privado">
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="RCP y Primeros Auxilios">
                             Más información
                         </button>
                     </div>
@@ -315,51 +305,52 @@
     </section>
 
     {{-- ===========================
-         Conserje y Mayordomo
-       =========================== --}}
+    Traslado y movilizacion de pacientes
+    =========================== --}}
     <section class="py-5 bg-white">
         <div class="container">
 
             <div class="curso-card">
                 <div class="curso-card-media">
-                    <img
-                        src="{{ asset('img/cursos/conserje_y_mayordomo.jpg') }}"
-                        alt="Conserje y Mayordomo"
-                    >
-                    <span class="curso-tag">Atención y Seguridad</span>
+                    <img src="{{ asset('img/especializacion/salud/traslado.jpg') }}"
+                        alt="Traslado y movilizacion de pacientes">
+                    <span class="curso-tag">Técnico</span>
                 </div>
 
                 <div class="curso-card-body">
                     <div>
                         <div class="curso-meta mb-1">
-                            Condominios y edificios · Nivel intermedio
+                            Manejo de trauma y evacuación
                         </div>
 
                         <h2 class="curso-title mb-2">
-                            Conserje y Mayordomo
+                            Traslado e inmovilización de pacientes
                         </h2>
 
                         <p class="curso-resumen mb-3">
-                            Capacitación en seguridad integral para conserjes y mayordomos de
-                            edificios y condominios, enfocado en la prevención de riesgos,
-                            control de accesos y atención a residentes.
+                            Domina las técnicas seguras para el movimiento y transporte de personas lesionadas. El curso
+                            enseña el uso correcto de tablas espinales, collarines y técnicas de levantamiento para prevenir
+                            lesiones secundarias durante la evacuación en situaciones de crisis o accidentes laborales.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Camilleros, personal de ambulancias, brigadas de emergencia industrial y equipos de rescate.
                         </p>
 
                         <div class="curso-badges mb-1">
-                            <span>Seguridad en condominios</span>
-                            <span>Atención a residentes</span>
-                            <span>Control de accesos</span>
+                            <span>Duración: -- Horas</span>
+                            <span>Modalidad: Presencial</span>
+                            <span>Certificación Sence</span>
                         </div>
                     </div>
 
                     <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
                         <small class="text-muted">
-                            Mejora la experiencia y seguridad en tu comunidad.
+                            Dedicado a proteger a las personas durante emergencias médicas.
                         </small>
 
-                        <button type="button"
-                                class="btn btn-danger fw-semibold btn-curso-info"
-                                data-curso="Conserje y Mayordomo">
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="Conserje y Mayordomo">
                             Más información
                         </button>
                     </div>
@@ -370,40 +361,42 @@
     </section>
 
     {{-- ===========================
-         Curso CCTV
-       =========================== --}}
+    Asistente de Enfermería
+    =========================== --}}
     <section class="py-5 bg-white">
         <div class="container">
 
             <div class="curso-card">
                 <div class="curso-card-media">
-                    <img
-                        src="{{ asset('img/cursos/Curso_CCTV.jpg') }}"
-                        alt="Curso CCTV"
-                    >
-                    <span class="curso-tag">Tecnología y Monitoreo</span>
+                    <img src="{{ asset('img/especializacion/salud/asistente.jpg') }}" alt="Asistente de Enfermería">
+                    <span class="curso-tag">Programa</span>
                 </div>
 
                 <div class="curso-card-body">
                     <div>
                         <div class="curso-meta mb-1">
-                            Sistemas electrónicos · Nivel técnico
+                            Gestión y apoyo clínico
                         </div>
 
                         <h2 class="curso-title mb-2">
-                            Curso CCTV
+                            Asistente de Enfermería
                         </h2>
 
                         <p class="curso-resumen mb-3">
-                            Formación para operadores de Sistemas de Seguridad CCTV,
-                            control de accesos y alarmas, con foco en el uso eficiente de
-                            la tecnología disponible.
+                            Formación teórico-práctica para apoyar la gestión del cuidado en centros de salud. Aprenderás
+                            sobre control de signos vitales, administración básica, higiene del paciente y confort, actuando
+                            como un pilar fundamental en el equipo de salud bajo supervisión profesional.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Personas con vocación de servicio que busquen integrarse al sistema de salud público o privado
+                            en roles de apoyo técnico.
                         </p>
 
                         <div class="curso-badges mb-1">
-                            <span>Operación de sistemas CCTV</span>
-                            <span>Monitoreo y alarmas</span>
-                            <span>Control de accesos</span>
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: Hibrida</span>
+                            <span>Certificación Sence</span>
                         </div>
                     </div>
 
@@ -412,9 +405,7 @@
                             Ideal para salas de monitoreo y centros de control.
                         </small>
 
-                        <button type="button"
-                                class="btn btn-danger fw-semibold btn-curso-info"
-                                data-curso="Curso CCTV">
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info" data-curso="Curso CCTV">
                             Más información
                         </button>
                     </div>
@@ -424,9 +415,362 @@
         </div>
     </section>
 
+    {{-- ===========================
+    Soporte Vital Basico
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                {{-- Imagen izquierda --}}
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/salud/vital.jpg') }}" alt="Soporte vital básico">
+                    <span class="curso-tag">Programa</span>
+                </div>
+
+                {{-- Texto derecha --}}
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Protocolos internacionales (BLS)
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Soporte vital básico
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Curso intensivo basado en guías internacionales para el manejo del paro cardíaco y la
+                            obstrucción de la vía aérea en adultos y pediatría. Se enfoca en la cadena de supervivencia,
+                            ventilaciones efectivas y compresiones de alta calidad para equipos de respuesta sanitaria.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Profesionales de la salud y técnicos en urgencias médicas que requieren certificación
+                            actualizada en protocolos de soporte vital.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: Presencial</span>
+                            <span>Certificación Sence</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            ¿Dudas sobre requisitos, horarios o valores? Te orientamos sin compromiso.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="Soporte Vital Basico">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Cuidado de enfermos
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                {{-- Imagen izquierda --}}
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/salud/enfermos.jpg') }}" alt="enfermos">
+                    <span class="curso-tag">Taller</span>
+                </div>
+
+                {{-- Texto derecha --}}
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Atención domiciliaria
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Cuidados generales de enfermos
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Capacitación orientada al cuidado humanizado y técnico de personas en situación de enfermedad.
+                            Aborda desde la administración de medicamentos orales hasta la prevención de escaras y manejo de
+                            la movilidad reducida en el entorno domiciliario u hospitalario.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Cuidadores informales, familiares y personal de apoyo en casas de reposo u hospitalización
+                            domiciliaria.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: E-learning</span>
+                            <span>Certificación Propia</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            ¿Dudas sobre requisitos, horarios o valores? Te orientamos sin compromiso.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="cuidado enfermos">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Podología
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                {{-- Imagen izquierda --}}
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/salud/podologia.jpg') }}" alt="podologia">
+                    <span class="curso-tag">Programa</span>
+                </div>
+
+                {{-- Texto derecha --}}
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Salud del pie y prevención
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Podología básica y clinica
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Formación técnica en el diagnóstico y tratamiento de afecciones del pie. El curso cubre
+                            anatomía, patologías comunes, técnicas de corte y esterilización de instrumental, con un fuerte
+                            enfoque en la higiene y prevención de complicaciones en pacientes diabéticos o geriátricos.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Emprendedores y personas interesadas en desempeñarse en centros de estética, consultas
+                            podológicas o atención a domicilio.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: Presencial</span>
+                            <span>Certificación Sence</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            ¿Dudas sobre requisitos, horarios o valores? Te orientamos sin compromiso.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="podologia básica y clinica">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Manicure y Pedicure
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                {{-- Imagen izquierda --}}
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/salud/pedicure.jpg') }}"
+                        alt="Técnicas profesionales de manicure y pedicure">
+                    <span class="curso-tag">Taller</span>
+                </div>
+
+                {{-- Texto derecha --}}
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Estética y cuidado personal
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Tecnicas profesionales de manicure y pedicure.
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Aprende las últimas tendencias en cuidado y embellecimiento de manos y pies. El curso incluye
+                            técnicas de esmaltado, tratamiento de cutículas y spa de manos, siempre bajo estrictos
+                            estándares de higiene y esterilización de herramientas para garantizar un servicio seguro y de
+                            calidad.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Quienes deseen iniciar un emprendimiento independiente o trabajar en salones de belleza y
+                            centros de estética integral.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: Presencial</span>
+                            <span>Certificación Propia</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            ¿Dudas sobre requisitos, horarios o valores? Te orientamos sin compromiso.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="pedicure y manicure">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Estetica integral
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                {{-- Imagen izquierda --}}
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/salud/estetica.jpg') }}" alt="Estética integral y corporal">
+                    <span class="curso-tag">Programa</span>
+                </div>
+
+                {{-- Texto derecha --}}
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Cosmetología y bienestar
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Estética integral y corporal
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Programa completo que abarca tratamientos faciales y corporales. Desde limpiezas profundas hasta
+                            masoterapia reductiva, el alumno aprenderá a utilizar aparatología estética y productos
+                            dermocosméticos, ofreciendo soluciones integrales para el bienestar y la imagen personal.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Futuros profesionales de la belleza que buscan una formación versátil para desempeñarse en spas,
+                            hoteles y centros especializados.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración referencial: 90 hrs</span>
+                            <span>Modalidad: Presencial</span>
+                            <span>Certificación Sence</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            ¿Dudas sobre requisitos, horarios o valores? Te orientamos sin compromiso.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="estetica integral y corporal">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Cuidado Adultos mayores
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                {{-- Imagen izquierda --}}
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/salud/mayores.jpg') }}" alt="Cuidados del adulto mayor">
+                    <span class="curso-tag">Programa</span>
+                </div>
+
+                {{-- Texto derecha --}}
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Geriatría y Cuidado
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Cuidados del adulto mayor
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Especialización en la atención de la tercera edad, enfocada en promover la autonomía y calidad
+                            de vida. Se tratan temas como nutrición geriátrica, manejo de demencias seniles, estimulación
+                            cognitiva y primeros auxilios específicos para el adulto mayor.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Cuidadores, técnicos en enfermería y personal de residencias de larga estadía (ELEAM) que
+                            requieren herramientas específicas para el trato digno y seguro de ancianos.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: Híbrida</span>
+                            <span>Certificación Propia</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            ¿Dudas sobre requisitos, horarios o valores? Te orientamos sin compromiso.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="adultos mayores">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
     {{-- ======================
-         FORMULARIO DE CONTACTO
-       ====================== --}}
+    FORMULARIO DE CONTACTO
+    ====================== --}}
     <section id="form-curso" class="py-5 form-curso-bg">
         <style>
             .form-curso-bg {
@@ -575,11 +919,8 @@
                                         {{-- Nombre --}}
                                         <div class="col-md-6">
                                             <label class="form-curso-label mb-1">Nombre completo</label>
-                                            <input type="text"
-                                                   name="nombre"
-                                                   class="form-control form-curso-field"
-                                                   placeholder="Ej: Juan Pérez"
-                                                   required>
+                                            <input type="text" name="nombre" class="form-control form-curso-field"
+                                                placeholder="Ej: Juan Pérez" required>
                                             <div class="form-curso-help">
                                                 Persona de contacto principal.
                                             </div>
@@ -588,11 +929,8 @@
                                         {{-- Correo --}}
                                         <div class="col-md-6">
                                             <label class="form-curso-label mb-1">Correo electrónico</label>
-                                            <input type="email"
-                                                   name="correo"
-                                                   class="form-control form-curso-field"
-                                                   placeholder="correo@ejemplo.cl"
-                                                   required>
+                                            <input type="email" name="correo" class="form-control form-curso-field"
+                                                placeholder="correo@ejemplo.cl" required>
                                             <div class="form-curso-help">
                                                 Donde enviaremos la información del curso.
                                             </div>
@@ -601,10 +939,8 @@
                                         {{-- Teléfono --}}
                                         <div class="col-md-6">
                                             <label class="form-curso-label mb-1">Teléfono</label>
-                                            <input type="text"
-                                                   name="telefono"
-                                                   class="form-control form-curso-field"
-                                                   placeholder="+56 9 1234 5678">
+                                            <input type="text" name="telefono" class="form-control form-curso-field"
+                                                placeholder="+56 9 1234 5678">
                                             <div class="form-curso-help">
                                                 Opcional, para coordinar vía llamada o WhatsApp.
                                             </div>
@@ -613,12 +949,9 @@
                                         {{-- Curso de interés --}}
                                         <div class="col-md-6">
                                             <label class="form-curso-label mb-1">Curso de interés</label>
-                                            <input type="text"
-                                                   id="curso_interes"
-                                                   name="curso_interes"
-                                                   class="form-control form-curso-field"
-                                                   placeholder="Ej: Formación de Guardias OS10"
-                                                   required>
+                                            <input type="text" id="curso_interes" name="curso_interes"
+                                                class="form-control form-curso-field"
+                                                placeholder="Ej: Formación de Guardias OS10" required>
                                             <div class="form-curso-help">
                                                 Se completa automáticamente al elegir “Más información”.
                                             </div>
@@ -630,13 +963,12 @@
                                     {{-- Mensaje --}}
                                     <div class="mb-3">
                                         <label class="form-curso-label mb-1">Mensaje / Detalles</label>
-                                        <textarea name="mensaje"
-                                                  rows="4"
-                                                  class="form-control form-curso-field"
-                                                  placeholder="Indica fechas tentativas, número de participantes, modalidad (presencial/online), requerimientos especiales, etc."></textarea>
+                                        <textarea name="mensaje" rows="4" class="form-control form-curso-field"
+                                            placeholder="Indica fechas tentativas, número de participantes, modalidad (presencial/online), requerimientos especiales, etc."></textarea>
                                     </div>
 
-                                    <div class="mt-3 d-flex flex-column flex-sm-row align-items-sm-center justify-content-between">
+                                    <div
+                                        class="mt-3 d-flex flex-column flex-sm-row align-items-sm-center justify-content-between">
                                         <p class="text-muted form-curso-help mb-3 mb-sm-0">
                                             Al enviar este formulario, autorizas a Security Work a contactarte para
                                             entregarte información sobre sus cursos de capacitación.

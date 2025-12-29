@@ -297,7 +297,7 @@
                         </small>
 
                         <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
-                            data-curso="Vigilante Privado">
+                            data-curso="Presto Software">
                             Más información
                         </button>
                     </div>
@@ -354,7 +354,7 @@
                         </small>
 
                         <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
-                            data-curso="Conserje y Mayordomo">
+                            data-curso="Microsoft Office">
                             Más información
                         </button>
                     </div>
@@ -372,7 +372,8 @@
 
             <div class="curso-card">
                 <div class="curso-card-media">
-                    <img src="{{ asset('img/especializacion/ofimatica/ciberseguridad.jpg') }}" alt="Curso CCTV">
+                    <img src="{{ asset('img/especializacion/ofimatica/ciberseguridad.jpg') }}"
+                        alt="Curso Ciberseguridad Basica">
                     <span class="curso-tag">Seguridad Digital</span>
                 </div>
 
@@ -410,7 +411,463 @@
                             Ideal para salas de monitoreo y centros de control.
                         </small>
 
-                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info" data-curso="Curso CCTV">
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="Ciberseguridad Basica">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    {{-- ===========================
+    Project
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/ofimatica/project.jpg') }}" alt="Curso Project">
+                    <span class="curso-tag">Programa</span>
+                </div>
+
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Gestión de proyectos y planificación estratégica
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Microsoft Project
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Domina la administración de proyectos complejos mediante la herramienta líder del mercado.
+                            Aprenderás a planificar cronogramas, asignar recursos de seguridad y gestionar presupuestos,
+                            asegurando el cumplimiento de plazos críticos. El curso enfoca el uso del software hacia el
+                            control riguroso de etapas y la mitigación de riesgos en la implementación de servicios.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Jefes de operaciones, supervisores de seguridad y administrativos que requieren monitorear el
+                            avance de proyectos, coordinar turnos y optimizar la asignación de recursos humanos y técnicos.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Certificación Sence</span>
+                            <span>Modalidad: Presencial y virtual</span>
+                            <span>Duración referencial: -- hrs</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideal para salas de monitoreo y centros de control.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="Ciberseguridad Basica">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    {{-- ===========================
+    PowerBI
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/ofimatica/powerbi.jpg') }}" alt="Curso PowerBI">
+                    <span class="curso-tag">Programa</span>
+                </div>
+
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Inteligencia de negocios y análisis de datos
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            PowerBI
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Transforma datos dispersos en paneles de control (dashboards) interactivos para la toma de
+                            decisiones estratégicas. Aprenderás a conectar fuentes de datos, modelar información y
+                            visualizar indicadores clave de desempeño (KPIs), facilitando el monitoreo de incidencias,
+                            reportes de gestión y métricas operativas en tiempo real.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Profesionales y analistas que necesiten interpretar grandes volúmenes de información para
+                            generar reportes de alto impacto, mejorar la eficiencia operativa y detectar patrones de riesgo
+                            mediante el análisis de datos.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Certificación Sence</span>
+                            <span>Modalidad: Presencial y virtual</span>
+                            <span>Duración referencial: -- hrs</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideal para la gestión o manejo de recursos.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info" data-curso="Curso PowerBI">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    {{-- ===========================
+    Sharepoint
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/ofimatica/sharepoint.jpg') }}" alt="Curso Sharepoint">
+                    <span class="curso-tag">Programa</span>
+                </div>
+
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Colaboración y gestión documental
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Sharepoint
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Aprende a configurar y administrar sitios de equipo para el almacenamiento seguro y la
+                            colaboración eficiente. El curso abarca la gestión de permisos de acceso, bibliotecas de
+                            documentos y flujos de trabajo automatizados, garantizando que la información sensible de la
+                            empresa esté organizada, accesible y protegida bajo estándares corporativos.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Administrativos y equipos de TI encargados de la gestión del conocimiento, que busquen
+                            centralizar la información interna y asegurar la continuidad operativa mediante el trabajo
+                            colaborativo en la nube.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Certificación Sence</span>
+                            <span>Modalidad: Presencial y virtual</span>
+                            <span>Duración referencial: -- hrs</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideal para la la organizacion de datos de una empresa.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info" data-curso="Curso PowerBI">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Uso streaming plataformas
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/ofimatica/streming.jpg') }}" alt="Curso Streaming">
+                    <span class="curso-tag">Taller</span>
+                </div>
+
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Comunicación digital y monitoreo
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Gestion de plataformas Streaming
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Desarrolla competencias técnicas para la configuración y transmisión de contenido en vivo a
+                            través de plataformas digitales (OBS, YouTube, Teams). El enfoque abarca desde la calidad de
+                            emisión hasta la seguridad en la transmisión, ideal para realizar capacitaciones remotas,
+                            webinars corporativos o monitoreo de circuitos cerrados mediante streaming seguro.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Encargados de capacitación, marketing o seguridad que requieran implementar canales de
+                            comunicación visual en tiempo real, garantizando estabilidad y profesionalismo en sus emisiones.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Certificación Propia</span>
+                            <span>Modalidad: Presencial y virtual</span>
+                            <span>Duración referencial: -- hrs</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideal para la gestión o manejo de recursos.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info" data-curso="Curso PowerBI">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Prezi
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/ofimatica/prezi.jpg') }}" alt="Curso Prezi">
+                    <span class="curso-tag">Programa</span>
+                </div>
+
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Presentaciones de alto impacto
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Prezi: Diseño y visualización
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Rompe con las diapositivas estáticas y domina el arte de las presentaciones dinámicas.
+                            Aprenderás a estructurar narrativas visuales que conecten ideas y detalles, ideal para presentar
+                            planes de seguridad, informes de gestión o propuestas comerciales a clientes, captando la
+                            atención mediante un diseño fluido y profesional.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Ejecutivos comerciales, capacitadores y jefaturas que necesiten exponer información compleja de
+                            manera clara, moderna y persuasiva ante audiencias exigentes.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Certificación Propia</span>
+                            <span>Modalidad: Presencial y virtual</span>
+                            <span>Duración referencial: -- hrs</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideal para crear presentaciones innovadoras.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info" data-curso="Curso PowerBI">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Ethical Hacking
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/ofimatica/hacking.jpg') }}" alt="Curso PowerBI">
+                    <span class="curso-tag">Especialización</span>
+                </div>
+
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Ciberseguridad ofensiva y defensa
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Ethical Hacking
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Adquiere las habilidades técnicas para identificar y explotar vulnerabilidades en sistemas
+                            informáticos bajo un marco legal y controlado. Aprenderás metodologías de intrusión, escaneo de
+                            redes y análisis de brechas de seguridad con el objetivo de fortalecer las defensas de la
+                            organización ante ciberataques reales.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Ingenieros en informática, administradores de redes y profesionales de seguridad TI que deseen
+                            especializarse en la auditoría de sistemas y protección de infraestructura crítica digital.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Certificación Sence</span>
+                            <span>Modalidad: Presencial y virtual</span>
+                            <span>Duración referencial: -- hrs</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideal para la experimentación de técnicas de hacking ético.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info" data-curso="Curso PowerBI">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    SCRUM
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/ofimatica/scrum.png') }}" alt="Curso SCRUM">
+                    <span class="curso-tag">Metodologías</span>
+                </div>
+
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Metodologías agiles y de gestión
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            SCRUM
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Implementa marcos de trabajo ágiles para mejorar la velocidad y calidad en la entrega de
+                            proyectos. Aprenderás los roles, eventos y artefactos de Scrum, permitiendo a los equipos de
+                            trabajo adaptarse rápidamente a cambios, gestionar imprevistos y optimizar la colaboración
+                            interna en entornos de alta exigencia.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Líderes de equipo, gestores de proyectos y desarrolladores que busquen modernizar sus procesos
+                            de trabajo, fomentando la autoorganización y la mejora continua en sus departamentos.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Certificación Sence</span>
+                            <span>Modalidad: Presencial y virtual</span>
+                            <span>Duración referencial: -- hrs</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideal para la experimentación de técnicas de hacking ético.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info" data-curso="Curso PowerBI">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    AutoCAD
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/ofimatica/autocad.jpg') }}" alt="Curso PowerBI">
+                    <span class="curso-tag">Programa</span>
+                </div>
+
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Diseño tecnico y planimetría
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            AutoCAD 2D: Planos e infraestructura
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Domina el software estándar para el diseño asistido por computador. Este curso capacita al
+                            alumno en la creación y lectura de planos técnicos, fundamental para el diseño de instalaciones,
+                            diagramación de perímetros de seguridad, ubicación de cámaras y planes de evacuación en recintos
+                            corporativos e industriales.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Prevencionistas de riesgos, diseñadores técnicos y personal operativo encargado de la
+                            infraestructura física, que requieran plasmar con precisión técnica los levantamientos y
+                            proyectos de seguridad.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Certificación Sence</span>
+                            <span>Modalidad: Presencial</span>
+                            <span>Duración referencial: -- hrs</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideal para la experimentación de técnicas de hacking ético.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info" data-curso="Curso PowerBI">
                             Más información
                         </button>
                     </div>

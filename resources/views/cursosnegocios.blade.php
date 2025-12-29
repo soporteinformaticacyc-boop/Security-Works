@@ -132,60 +132,685 @@
     </section>
 
     {{-- ===========================
-         Formación de Guardias OS10
-       =========================== --}}
+    Adm. y Control de Inventario Básico
+    =========================== --}}
     <section class="py-5 bg-white">
         <div class="container">
 
             <div class="curso-card">
                 {{-- Imagen izquierda --}}
                 <div class="curso-card-media">
-                    <img
-                        src="{{ asset('img/cursos/curso_os10.jpg') }}"
-                        alt="Formación de Guardias OS10"
-                    >
-                    <span class="curso-tag">Curso OS10</span>
+                    <img src="{{ asset('img/especializacion/negocios/inventario.jpg') }}" alt="inventario">
+                    <span class="curso-tag">Logística</span>
                 </div>
 
                 {{-- Texto derecha --}}
                 <div class="curso-card-body">
                     <div>
                         <div class="curso-meta mb-1">
-                            Seguridad privada · Nivel inicial
+                            Protección de activos y stock
                         </div>
 
                         <h2 class="curso-title mb-2">
-                            Formación de Guardias OS10
+                            Administración y control de inventario
                         </h2>
 
                         <p class="curso-resumen mb-3">
-                            El objetivo del curso es entregar al alumno conocimientos y herramientas sobre
-                            técnicas de seguridad privada, fundamentales para responder con certeza y
-                            oportunidad ante eventos relacionados con la seguridad que puedan afectar a los
-                            copropietarios de alguna comunidad o institución, y a sus activos.
+                            Optimiza la gestión de bodegas minimizando mermas y 'pérdidas desconocidas'. El curso entrega
+                            herramientas técnicas para el registro, trazabilidad y auditoría de existencias, fundamental
+                            para mantener la seguridad patrimonial y la continuidad operativa de la cadena de suministro.
                         </p>
 
                         <p class="curso-resumen mb-3">
-                            Dirigido a personas que quieran trabajar como guardias de seguridad, nochero,
-                            rondines u otros de similar carácter por los efectos del D.S. 93, en
-                            condominios habitacionales, comerciales, empresas y eventos.
+                            Bodegueros, encargados de logística y personal de seguridad que requiere conocimientos en
+                            control de entrada y salida de mercancías.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: Presencial</span>
+                            <span>Certificación Sence</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Recomendado para personal de almacenes y centros de distribución.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="Administración y control de inventario">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    GTD
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/negocios/gtd.jpg') }}" alt="GTD">
+                    <span class="curso-tag">Eficiencia</span>
+                </div>
+
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Productividad y Gestión
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Administración del tiempo (GTD)
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            En seguridad, el tiempo es crítico. Aprende a gestionar flujos de trabajo y prioridades bajo la
+                            metodología Getting Things Done (GTD). Este sistema permite organizar tareas pendientes y
+                            reducir el estrés operativo, asegurando que las urgencias no desplacen a lo importante.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Supervisores, jefes de operaciones y administrativos que manejan múltiples requerimientos
+                            simultáneos y plazos estrictos.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración: 12 Horas</span>
+                            <span>Modalidad: Presencial</span>
+                            <span>Taller práctico</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Programa ideal para la gestión de proyectos o actividades empresariales.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="Administración del tiempo (GTD)">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Com. Efectiva y Manejo de Conflictos para Empresa
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/negocios/conflicto.jpg') }}" alt="conflicto">
+                    <span class="curso-tag">Habilidades blandas</span>
+                </div>
+
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Clima laboral y contención
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Comunicación efectiva y manejo de conflictos
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Desarrolla la capacidad de desactivar situaciones tensas antes de que escalen. El curso se
+                            enfoca en la comunicación asertiva y técnicas de mediación corporativa, herramientas vitales
+                            para mantener la seguridad interna y un ambiente laboral libre de hostilidad.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Líderes de equipo, RRHH y personal que interactúa constantemente con clientes internos o
+                            externos en situaciones de presión.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración: -- Horas</span>
+                            <span>Modalidad: Presencial</span>
+                            <span>Certificación Sence</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Diseñado para perfiles que necesitan técnicas de comunicación efectiva y manejo de conflictos.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="Comunicación efectiva y manejo de conflictos">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Gestion y direccion de proyectos
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/negocios/gestion_proyectos.png') }}"
+                        alt="Gestión y dirección de proyectos">
+                    <span class="curso-tag">Programa</span>
+                </div>
+
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Planificación estrategica
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Gestión y dirección de proyectos
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Domina el ciclo completo de un proyecto, desde la evaluación de riesgos hasta la entrega final.
+                            Aprenderás a coordinar recursos, tiempos y costos, garantizando que las implementaciones
+                            (tecnológicas, de infraestructura o servicios) cumplan con los estándares de calidad exigidos.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Jefes de proyecto, ingenieros y encargados de implementar nuevas soluciones o servicios en la
+                            organización.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración: -- Horas</span>
+                            <span>Modalidad: Híbrida</span>
+                            <span>Certificación Sence</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Dedicado al manejo de proyectos de mediana o mayor escala.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="Gestión y dirección de proyectos">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Ventas consultivas
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/negocios/consultivas.jpg') }}" alt="Ventas consultivas">
+                    <span class="curso-tag">Negocios</span>
+                </div>
+
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Negociación estratégica
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Ventas consultivas: Modelo Harvard
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Especialízate en negociaciones complejas basadas en intereses y no en posiciones. Este curso
+                            enseña a generar acuerdos de mutuo beneficio (Win-Win), ideal para cerrar contratos de servicios
+                            de seguridad o tecnología de alto valor, construyendo relaciones a largo plazo.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Gerentes comerciales, ejecutivos de cuentas corporativas (KAM) y directores que negocian
+                            contratos B2B.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: Híbrida</span>
+                            <span>Certificación Propia</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideal para profesionales que manejan negociaciones complejas y contratos de alto valor.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="Curso Ventas Consultivas">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Técnicas efectivas de ventas
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                {{-- Imagen izquierda --}}
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/negocios/efectiva_ventas.jpg') }}" alt="Técnicas efectivas de ventas">
+                    <span class="curso-tag">Taller</span>
+                </div>
+
+                {{-- Texto derecha --}}
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Cierre y persuación
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Técnicas efectivas de ventas
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Entrenamiento táctico enfocado en el proceso comercial directo: prospección, argumentación y
+                            manejo de objeciones. Aprende a comunicar valor y seguridad al cliente, transformando dudas en
+                            decisiones de compra efectivas y rápidas.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Fuerza de ventas en terreno, ejecutivos comerciales y emprendedores que buscan aumentar su tasa
+                            de cierre.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: Presencial</span>
+                            <span>Taller Práctico</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideeal para vendedores que buscan mejorar sus habilidades de cierre y persuasión.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="tecnicas efectivas de ventas">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Comercio exterior y transporte internacional
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                {{-- Imagen izquierda --}}
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/negocios/internacional.jpg') }}" alt="comercio exterior">
+                    <span class="curso-tag">Técnico</span>
+                </div>
+
+                {{-- Texto derecha --}}
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Logística global segura
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Comercio exterior y transporte
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Comprende la normativa aduanera y los Incoterms que rigen el movimiento global de mercancías. El
+                            curso pone énfasis en la documentación crítica y los protocolos de seguridad necesarios para
+                            proteger la carga durante el transporte internacional.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Analistas de Comex, encargados de importaciones y operadores logísticos enfocados en seguridad
+                            de la cadena de suministro.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: E-learning</span>
+                            <span>Certificación Sence</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideal para profesionales que gestionan operaciones de comercio exterior con enfoque en
+                            seguridad.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="comercio exterior y transporte internacional">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Tecnica de venta consultiva
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                {{-- Imagen izquierda --}}
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/negocios/consultiva.jpeg') }}" alt="Ventas consultivas">
+                    <span class="curso-tag">Especialización</span>
+                </div>
+
+                {{-- Texto derecha --}}
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Asesoría y soluciones
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Técnica de venta consultiva integral
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            A diferencia de la venta transaccional, este enfoque convierte al vendedor en un asesor experto.
+                            Aprenderás a diagnosticar los 'dolores' y riesgos del cliente para prescribir la solución
+                            exacta, elevando el perfil profesional de la oferta comercial.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Consultores de seguridad, ingenieros de preventa y asesores técnicos que comercializan
+                            soluciones a medida.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: E-learning</span>
+                            <span>Certificación Propia</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideal para profesionales que venden soluciones técnicas o personalizadas.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="tecnica de venta consultiva integral">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Liderazgo y trabajo en equipo
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                {{-- Imagen izquierda --}}
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/negocios/equipo.jpg') }}"
+                        alt="Técnicas profesionales de manicure y pedicure">
+                    <span class="curso-tag">Liderazgo</span>
+                </div>
+
+                {{-- Texto derecha --}}
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Gestión de personas y equipos
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Liderazgo y trabajo en equipo
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Fortalece las capacidades de mando para dirigir equipos cohesionados y disciplinados. Se abordan
+                            técnicas de motivación, delegación responsable y construcción de confianza, claves para mantener
+                            la operatividad en estructuras jerárquicas.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Supervisores de seguridad, jefes de turno y coordinadores de área con personal a cargo.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: Presencial</span>
+                            <span>Certificación Propia</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideal para mandos medios que buscan mejorar la gestión de sus equipos.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="liderazgo y trabajo en equipo">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Neuro-ventas
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                {{-- Imagen izquierda --}}
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/negocios/neuroventas.png') }}" alt="Neuro-ventas aplicadas">
+                    <span class="curso-tag">Innovación</span>
+                </div>
+
+                {{-- Texto derecha --}}
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Psicología del consumidor
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Neuro-ventas aplicadas
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Descubre cómo funciona el cerebro del cliente al tomar decisiones de compra. Aprenderás a
+                            utilizar gatillos mentales que activan la necesidad de protección, seguridad y confort,
+                            optimizando el discurso comercial desde una base científica.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Marketing, ejecutivos de ventas y publicistas interesados en la conducta humana y la persuasión
+                            ética.
                         </p>
 
                         <div class="curso-badges mb-1">
                             <span>Duración referencial: 90 hrs</span>
+                            <span>Modalidad: E-learning</span>
+                            <span>Certificación Propia</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideal para profesionales que buscan entender el comportamiento del consumidor.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="neuro-ventas aplicadas">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Marketing
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                {{-- Imagen izquierda --}}
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/negocios/Marketing.jpg') }}" alt="Marketing estratégico y operativo">
+                    <span class="curso-tag">Estrategia</span>
+                </div>
+
+                {{-- Texto derecha --}}
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Posicionamiento de marca
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Marketing estratégico y operativo
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Aprende a definir propuestas de valor, segmentar mercados y diseñar planes de marketing que
+                            destaquen la solidez de tu empresa. El curso abarca desde el análisis de competencia hasta la
+                            ejecución de campañas para captar nuevos clientes.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Emprendedores, analistas de marketing y gerentes que buscan posicionar servicios en mercados
+                            competitivos.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: Híbrida</span>
+                            <span>Certificación Sence</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideal para profesionales que desean fortalecer la presencia de su marca en el mercado.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="marketing estrategico y operativo">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Oratoria y manejo de la voz para una comunicación efectiva
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                {{-- Imagen izquierda --}}
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/negocios/oratoria.jpg') }}" alt="Oratoria y manejo de la voz">
+                    <span class="curso-tag">Habilidades blandas</span>
+                </div>
+
+                {{-- Texto derecha --}}
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Expresión y autoridad
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Oratoria y manejo de la voz para una comunicación efectiva
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            La seguridad también se transmite con la voz. Mejora tu dicción, proyección y lenguaje no verbal
+                            para realizar presentaciones de alto impacto, dar instrucciones claras a equipos grandes o
+                            exponer ante directorios con total autoridad y confianza.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Capacitadores, voceros organizacionales y directivos que requieren dominio escénico.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración referencial: -- hrs</span>
                             <span>Modalidad: Presencial</span>
-                            <span>Certificación OS10</span>
+                            <span>Taller Práctico</span>
                         </div>
                     </div>
 
                     <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
                         <small class="text-muted">
-                            ¿Dudas sobre requisitos, horarios o valores? Te orientamos sin compromiso.
+                            Ideal para profesionales que deben hablar en público con frecuencia.
                         </small>
 
-                        <button type="button"
-                                class="btn btn-danger fw-semibold btn-curso-info"
-                                data-curso="Formación de Guardias OS10">
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="oratoria y manejo de la voz para una comunicación efectiva">
                             Más información
                         </button>
                     </div>
@@ -196,56 +821,54 @@
     </section>
 
     {{-- ===========================
-         Reentrenamiento de Guardias OS10
-       =========================== --}}
+    Indicador de gestion KPI
+    =========================== --}}
     <section class="py-5 bg-white">
         <div class="container">
 
             <div class="curso-card">
+                {{-- Imagen izquierda --}}
                 <div class="curso-card-media">
-                    <img
-                        src="{{ asset('img/cursos/Reentrenamiento_de_Guardias_OS10.jpg') }}"
-                        alt="Reentrenamiento de Guardias OS10"
-                    >
-                    <span class="curso-tag">Actualización OS10</span>
+                    <img src="{{ asset('img/especializacion/negocios/kpi.jpg') }}" alt="Diseño de indicadores de gestión (KPI)">
+                    <span class="curso-tag">Gestión</span>
                 </div>
 
+                {{-- Texto derecha --}}
                 <div class="curso-card-body">
                     <div>
                         <div class="curso-meta mb-1">
-                            Seguridad privada · Nivel intermedio
+                            Metodologías de medición
                         </div>
 
                         <h2 class="curso-title mb-2">
-                            Reentrenamiento de Guardias OS10
+                            Diseño de indicadores de gestión (KPI)
                         </h2>
 
                         <p class="curso-resumen mb-3">
-                            Curso orientado a reforzar conocimientos y habilidades de los guardias
-                            acreditados OS10, actualizando contenidos de acuerdo a la normativa y
-                            buenas prácticas vigentes.
+                            Lo que no se mide, no se controla. Domina la creación y análisis de KPIs (Key Performance
+                            Indicators) para evaluar objetivamente el rendimiento de procesos, la efectividad de la
+                            seguridad y el cumplimiento de metas corporativas.
                         </p>
 
                         <p class="curso-resumen mb-3">
-                            Ideal para guardias que deben renovar credencial y empresas que desean
-                            mantener al día la capacitación de su personal.
+                            Analistas de gestión, jefes de operaciones y gerentes que necesitan tableros de control para la
+                            toma de decisiones.
                         </p>
 
                         <div class="curso-badges mb-1">
-                            <span>Duración referencial: 40 hrs</span>
-                            <span>Renovación OS10</span>
-                            <span>Orientado a empresas</span>
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: E-learning</span>
+                            <span>Certificación Sence</span>
                         </div>
                     </div>
 
                     <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
                         <small class="text-muted">
-                            Programa ideal para mantener tus credenciales vigentes.
+                            Ideal para profesionales que buscan implementar métricas de desempeño efectivas.
                         </small>
 
-                        <button type="button"
-                                class="btn btn-danger fw-semibold btn-curso-info"
-                                data-curso="Reentrenamiento de Guardias OS10">
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="diseño de indicadores de gestión (kpi)">
                             Más información
                         </button>
                     </div>
@@ -256,55 +879,54 @@
     </section>
 
     {{-- ===========================
-         Vigilante Privado
-       =========================== --}}
+    Servicio al cliente, atención call center
+    =========================== --}}
     <section class="py-5 bg-white">
         <div class="container">
 
             <div class="curso-card">
+                {{-- Imagen izquierda --}}
                 <div class="curso-card-media">
-                    <img
-                        src="{{ asset('img/cursos/Vigilante_Privado.jpg') }}"
-                        alt="Vigilante Privado"
-                    >
-                    <span class="curso-tag">Vigilancia Privada</span>
+                    <img src="{{ asset('img/especializacion/negocios/callcenter.jpeg') }}" alt="Servicio al cliente y atención en call center">
+                    <span class="curso-tag">Servicio</span>
                 </div>
 
+                {{-- Texto derecha --}}
                 <div class="curso-card-body">
                     <div>
                         <div class="curso-meta mb-1">
-                            Operaciones de seguridad · Nivel avanzado
+                            Protocolos de atención
                         </div>
 
                         <h2 class="curso-title mb-2">
-                            Vigilante Privado
+                            Servicio al cliente y atención en call center
                         </h2>
 
                         <p class="curso-resumen mb-3">
-                            Programa de formación para personal que desempeña funciones de
-                            vigilancia privada en bancos, instituciones financieras y otras
-                            instalaciones de alto riesgo.
+                            Estandariza la calidad de atención en puntos de contacto críticos. El curso enseña protocolos de
+                            etiqueta telefónica, manejo de reclamos y escucha activa, asegurando que cada interacción
+                            refuerce la imagen de profesionalismo y confianza de la empresa.
                         </p>
 
                         <p class="curso-resumen mb-3">
-                            Incluye manejo de protocolos de seguridad, análisis de riesgo
-                            y trabajo coordinado con fuerzas de orden.
+                            Operadores de mesa de ayuda, recepcionistas, personal de monitoreo y ejecutivos de atención
+                            telefónica.
                         </p>
 
                         <div class="curso-badges mb-1">
-                            <span>Protección de activos críticos</span>
-                            <span>Protocolos y análisis de riesgo</span>
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: E-learning</span>
+                            <span>Certificación Sence</span>
                         </div>
                     </div>
 
                     <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
                         <small class="text-muted">
-                            Diseñado para perfiles que requieren alto estándar de seguridad.
+                            Ideal para profesionales que desean fortalecer la presencia de su marca en el mercado.
                         </small>
 
-                        <button type="button"
-                                class="btn btn-danger fw-semibold btn-curso-info"
-                                data-curso="Vigilante Privado">
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="call center y servicio al cliente">
                             Más información
                         </button>
                     </div>
@@ -315,51 +937,54 @@
     </section>
 
     {{-- ===========================
-         Conserje y Mayordomo
-       =========================== --}}
+    Normativa ley de compras publicas
+    =========================== --}}
     <section class="py-5 bg-white">
         <div class="container">
 
             <div class="curso-card">
+                {{-- Imagen izquierda --}}
                 <div class="curso-card-media">
-                    <img
-                        src="{{ asset('img/cursos/conserje_y_mayordomo.jpg') }}"
-                        alt="Conserje y Mayordomo"
-                    >
-                    <span class="curso-tag">Atención y Seguridad</span>
+                    <img src="{{ asset('img/especializacion/negocios/publica.jpg') }}" alt="Normativa y ley de compras publicas">
+                    <span class="curso-tag">Legislación</span>
                 </div>
 
+                {{-- Texto derecha --}}
                 <div class="curso-card-body">
                     <div>
                         <div class="curso-meta mb-1">
-                            Condominios y edificios · Nivel intermedio
+                            Licitaciones y mercado público
                         </div>
 
                         <h2 class="curso-title mb-2">
-                            Conserje y Mayordomo
+                            Normativa y ley de compras publicas
                         </h2>
 
                         <p class="curso-resumen mb-3">
-                            Capacitación en seguridad integral para conserjes y mayordomos de
-                            edificios y condominios, enfocado en la prevención de riesgos,
-                            control de accesos y atención a residentes.
+                            Conviértete en un proveedor experto del Estado. Analizaremos la Ley 19.886 y sus reglamentos,
+                            enseñándote a operar en el portal Mercado Público, preparar licitaciones competitivas y cumplir
+                            con los requisitos administrativos sin errores.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Encargados de licitaciones, administrativos de ventas y proveedores que buscan adjudicar
+                            contratos gubernamentales.
                         </p>
 
                         <div class="curso-badges mb-1">
-                            <span>Seguridad en condominios</span>
-                            <span>Atención a residentes</span>
-                            <span>Control de accesos</span>
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: E-learning</span>
+                            <span>Certificación Sence</span>
                         </div>
                     </div>
 
                     <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
                         <small class="text-muted">
-                            Mejora la experiencia y seguridad en tu comunidad.
+                            Ideal para profesionales que desean participar en licitaciones públicas.
                         </small>
 
-                        <button type="button"
-                                class="btn btn-danger fw-semibold btn-curso-info"
-                                data-curso="Conserje y Mayordomo">
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="normativa y ley de compras publicas">
                             Más información
                         </button>
                     </div>
@@ -370,51 +995,53 @@
     </section>
 
     {{-- ===========================
-         Curso CCTV
-       =========================== --}}
+    Metodologia kaizen
+    =========================== --}}
     <section class="py-5 bg-white">
         <div class="container">
 
             <div class="curso-card">
+                {{-- Imagen izquierda --}}
                 <div class="curso-card-media">
-                    <img
-                        src="{{ asset('img/cursos/Curso_CCTV.jpg') }}"
-                        alt="Curso CCTV"
-                    >
-                    <span class="curso-tag">Tecnología y Monitoreo</span>
+                    <img src="{{ asset('img/especializacion/negocios/metodokaizen.jpg') }}" alt="Metodología Kaizen">
+                    <span class="curso-tag">Calidad</span>
                 </div>
 
+                {{-- Texto derecha --}}
                 <div class="curso-card-body">
                     <div>
                         <div class="curso-meta mb-1">
-                            Sistemas electrónicos · Nivel técnico
+                            Mejora continua
                         </div>
 
                         <h2 class="curso-title mb-2">
-                            Curso CCTV
+                            Metodología Kaizen
                         </h2>
 
                         <p class="curso-resumen mb-3">
-                            Formación para operadores de Sistemas de Seguridad CCTV,
-                            control de accesos y alarmas, con foco en el uso eficiente de
-                            la tecnología disponible.
+                            Implementa la filosofía japonesa de la 'Mejora Continua' en tu organización. Aprende a detectar
+                            ineficiencias, estandarizar procesos y empoderar a los colaboradores para realizar pequeños
+                            cambios diarios que generan grandes impactos en calidad y seguridad.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Encargados de calidad, jefes de procesos y líderes de equipos operativos.
                         </p>
 
                         <div class="curso-badges mb-1">
-                            <span>Operación de sistemas CCTV</span>
-                            <span>Monitoreo y alarmas</span>
-                            <span>Control de accesos</span>
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: E-learning</span>
+                            <span>Certificación Sence</span>
                         </div>
                     </div>
 
                     <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
                         <small class="text-muted">
-                            Ideal para salas de monitoreo y centros de control.
+                            Ideal para profesionales que buscan optimizar procesos y mejorar la calidad.
                         </small>
 
-                        <button type="button"
-                                class="btn btn-danger fw-semibold btn-curso-info"
-                                data-curso="Curso CCTV">
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="metodologia kaizen">
                             Más información
                         </button>
                     </div>
@@ -423,10 +1050,129 @@
 
         </div>
     </section>
+
+    {{-- ===========================
+    Gestión de post-venta
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                {{-- Imagen izquierda --}}
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/negocios/post-venta.jpg') }}" alt="Gestión estratégica de post-venta">
+                    <span class="curso-tag">Comercial</span>
+                </div>
+
+                {{-- Texto derecha --}}
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Fidelización y garantía
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Gestión estratégica de post-venta
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            La relación comercial no termina con la venta. Este curso entrega herramientas para gestionar
+                            garantías, soporte técnico y encuestas de satisfacción, transformando la post-venta en una
+                            barrera de salida para el cliente y una fuente de nuevas oportunidades.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Departamentos de atención al cliente, soporte técnico y ejecutivos de fidelización.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: E-learning</span>
+                            <span>Taller Práctico</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideal para profesionales que desean fortalecer la presencia de su marca en el mercado.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="gestion estrategica de post-venta">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{-- ===========================
+    Community Manager/Formacion
+    =========================== --}}
+    <section class="py-5 bg-white">
+        <div class="container">
+
+            <div class="curso-card">
+                {{-- Imagen izquierda --}}
+                <div class="curso-card-media">
+                    <img src="{{ asset('img/especializacion/negocios/cm.jpg') }}" alt="Community Manager: Gestión y reputación">
+                    <span class="curso-tag">Digital</span>
+                </div>
+
+                {{-- Texto derecha --}}
+                <div class="curso-card-body">
+                    <div>
+                        <div class="curso-meta mb-1">
+                            Redes sociales corporativas
+                        </div>
+
+                        <h2 class="curso-title mb-2">
+                            Community Manager: Gestión y reputación
+                        </h2>
+
+                        <p class="curso-resumen mb-3">
+                            Gestiona la identidad digital de la empresa con un enfoque profesional. Aprenderás a crear
+                            contenido relevante, interactuar con la comunidad y aplicar protocolos de respuesta ante crisis
+                            de reputación online, protegiendo la imagen de marca.
+                        </p>
+
+                        <p class="curso-resumen mb-3">
+                            Encargados de comunicaciones, periodistas y asistentes de marketing digital.
+                        </p>
+
+                        <div class="curso-badges mb-1">
+                            <span>Duración referencial: -- hrs</span>
+                            <span>Modalidad: E-learning</span>
+                            <span>Certificación Sence</span>
+                        </div>
+                    </div>
+
+                    <div class="curso-cta d-flex flex-wrap align-items-center justify-content-between gap-2">
+                        <small class="text-muted">
+                            Ideal para profesionales que desean fortalecer la presencia de su marca en el mercado.
+                        </small>
+
+                        <button type="button" class="btn btn-danger fw-semibold btn-curso-info"
+                            data-curso="community manager gestion y reputacion">
+                            Más información
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
 
     {{-- ======================
-         FORMULARIO DE CONTACTO
-       ====================== --}}
+    FORMULARIO DE CONTACTO
+    ====================== --}}
     <section id="form-curso" class="py-5 form-curso-bg">
         <style>
             .form-curso-bg {
@@ -575,11 +1321,8 @@
                                         {{-- Nombre --}}
                                         <div class="col-md-6">
                                             <label class="form-curso-label mb-1">Nombre completo</label>
-                                            <input type="text"
-                                                   name="nombre"
-                                                   class="form-control form-curso-field"
-                                                   placeholder="Ej: Juan Pérez"
-                                                   required>
+                                            <input type="text" name="nombre" class="form-control form-curso-field"
+                                                placeholder="Ej: Juan Pérez" required>
                                             <div class="form-curso-help">
                                                 Persona de contacto principal.
                                             </div>
@@ -588,11 +1331,8 @@
                                         {{-- Correo --}}
                                         <div class="col-md-6">
                                             <label class="form-curso-label mb-1">Correo electrónico</label>
-                                            <input type="email"
-                                                   name="correo"
-                                                   class="form-control form-curso-field"
-                                                   placeholder="correo@ejemplo.cl"
-                                                   required>
+                                            <input type="email" name="correo" class="form-control form-curso-field"
+                                                placeholder="correo@ejemplo.cl" required>
                                             <div class="form-curso-help">
                                                 Donde enviaremos la información del curso.
                                             </div>
@@ -601,10 +1341,8 @@
                                         {{-- Teléfono --}}
                                         <div class="col-md-6">
                                             <label class="form-curso-label mb-1">Teléfono</label>
-                                            <input type="text"
-                                                   name="telefono"
-                                                   class="form-control form-curso-field"
-                                                   placeholder="+56 9 1234 5678">
+                                            <input type="text" name="telefono" class="form-control form-curso-field"
+                                                placeholder="+56 9 1234 5678">
                                             <div class="form-curso-help">
                                                 Opcional, para coordinar vía llamada o WhatsApp.
                                             </div>
@@ -613,12 +1351,9 @@
                                         {{-- Curso de interés --}}
                                         <div class="col-md-6">
                                             <label class="form-curso-label mb-1">Curso de interés</label>
-                                            <input type="text"
-                                                   id="curso_interes"
-                                                   name="curso_interes"
-                                                   class="form-control form-curso-field"
-                                                   placeholder="Ej: Formación de Guardias OS10"
-                                                   required>
+                                            <input type="text" id="curso_interes" name="curso_interes"
+                                                class="form-control form-curso-field"
+                                                placeholder="Ej: Formación de Guardias OS10" required>
                                             <div class="form-curso-help">
                                                 Se completa automáticamente al elegir “Más información”.
                                             </div>
@@ -630,13 +1365,12 @@
                                     {{-- Mensaje --}}
                                     <div class="mb-3">
                                         <label class="form-curso-label mb-1">Mensaje / Detalles</label>
-                                        <textarea name="mensaje"
-                                                  rows="4"
-                                                  class="form-control form-curso-field"
-                                                  placeholder="Indica fechas tentativas, número de participantes, modalidad (presencial/online), requerimientos especiales, etc."></textarea>
+                                        <textarea name="mensaje" rows="4" class="form-control form-curso-field"
+                                            placeholder="Indica fechas tentativas, número de participantes, modalidad (presencial/online), requerimientos especiales, etc."></textarea>
                                     </div>
 
-                                    <div class="mt-3 d-flex flex-column flex-sm-row align-items-sm-center justify-content-between">
+                                    <div
+                                        class="mt-3 d-flex flex-column flex-sm-row align-items-sm-center justify-content-between">
                                         <p class="text-muted form-curso-help mb-3 mb-sm-0">
                                             Al enviar este formulario, autorizas a Security Work a contactarte para
                                             entregarte información sobre sus cursos de capacitación.
